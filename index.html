@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌤 Weather</h1>
+      <p class="subtitle">Select a city to get the current conditions</p>
+
+      <div class="controls">
+        <select id="city-select">
+          <option value=""></option>
+          <option value="new york">New York</option>
+          <option value="los angeles">Los Angeles</option>
+          <option value="chicago">Chicago</option>
+          <option value="paris">Paris</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="london">London</option>
+        </select>
+        <button id="get-weather-btn">Get Weather</button>
+      </div>
+
+      <div id="weather-display">
+        <div class="weather-header">
+          <img id="weather-icon" src="" alt="weather icon" />
+          <div class="header-text">
+            <div id="location"></div>
+            <div id="weather-main"></div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-label">Temperature</div>
+            <div class="stat-value" id="main-temperature"></div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Feels Like</div>
+            <div class="stat-value" id="feels-like"></div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Humidity</div>
+            <div class="stat-value" id="humidity"></div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Wind Speed</div>
+            <div class="stat-value" id="wind"></div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Wind Gust</div>
+            <div class="stat-value" id="wind-gust"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
