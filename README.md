@@ -43,17 +43,3 @@ weather-app/
 ├── script.js        # Fetch logic and DOM updates
 └── README.md
 ```
-
-## Running Locally
-
-1. Clone this repository
-   ```
-   git clone https://github.com/yourusername/weather-app.git
-   ```
-2. Open `index.html` directly in your browser — no build steps or dependencies required
-
-## Author
-
-**Huy Tran**
-UX Designer · Human Systems Engineering, Arizona State University
-[Portfolio](#) · [LinkedIn](https://www.linkedin.com/in/huy-tran-5525801b0/)
